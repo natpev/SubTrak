@@ -1,0 +1,64 @@
+{
+    "Configurations": {
+        "Categories": [
+            "HEALTH",
+            "ENTERTAINMENT",
+            "TEST",
+            "A REALLY LONG CATEGORY NAME"
+        ],
+        "Intervals": [
+            "months",
+            "years"
+        ]
+    },
+    "Subscriptions": {
+        "Netflix ": {
+            "cost": 19.99,
+            "category": "ENTERTAINMENT",
+            "interval": "months",
+            "period": 1,
+            "first_active_date": "2021-08-20",
+            "active": true
+        },
+        "Sasquatch soap": {
+            "cost": 40,
+            "category": "HEALTH",
+            "interval": "months",
+            "period": 3,
+            "first_active_date": "2021-08-20",
+            "active": true
+        },
+        "toothpaset": {
+            "cost": 10,
+            "category": "HEALTH",
+            "interval": "months",
+            "period": 1,
+            "first_active_date": "2021-08-20",
+            "active": true
+        },
+        "something to test": {
+            "cost": 128.0,
+            "category": "TEST",
+            "interval": "months",
+            "period": 1,
+            "first_active_date": "2020-01-01",
+            "active": true
+        },
+        "something with a long category": {
+            "cost": 32.87,
+            "category": "A REALLY LONG CATEGORY NAME",
+            "interval": "months",
+            "period": 1,
+            "first_active_date": "2020-01-24",
+            "active": true
+        },
+        "shampoo": {
+            "cost": 5.0,
+            "category": "HEALTH",
+            "interval": "months",
+            "period": 1,
+            "first_active_date": "2020-02-07",
+            "active": true
+        }
+    }
+}
