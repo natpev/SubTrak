@@ -218,7 +218,7 @@ def print_report(month, year):
                         if Sub_Data['Subscriptions'][SUB]['interval'] == ("months"):
                             sub_date = add_months(sub_date, (Sub_Data['Subscriptions'][SUB]['period']))
                         if Sub_Data['Subscriptions'][SUB]['interval'] == ("years"):
-                            sub_date = add_years(subdate, (Sub_Data['Subscriptions'][SUB]['period']))
+                            sub_date = add_years(sub_date, (Sub_Data['Subscriptions'][SUB]['period']))
 
                     elif print_month_start <= sub_date <= print_month_end:
                         ##format the name for printout
