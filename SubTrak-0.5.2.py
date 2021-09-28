@@ -2,7 +2,7 @@
 
 ###################################
 #  Created by:   Nathan Pevlor    #
-#  Version:      0.5.1            #
+#  Version:      0.5.2            #
 #  Started:      8\20\2021        #
 #  Updated:      9\3\2021         #
 ###################################
@@ -183,7 +183,7 @@ def add_months(sourcedate, months):
 def add_years(sourcedate, years):
     month = sourcedate.month
     year = sourcedate.year + years
-    month = month % 12 + 1
+    month = month
     day = min(sourcedate.day, calendar.monthrange(year,month)[1])
     return datetime.date(year, month, day)
 
